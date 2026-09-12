@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Erasmus+ Satzimport Export</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Hub-Modul</p>
+      <h1>Erasmus+ Satzimport Export</h1>
+      <p>Foerderpauschalen pruefen, exportieren und als Importdatei fuer die Erasmus+ Management-App vorbereiten.</p>
+    </div>
+    <div class="version-pill">Version <span id="version">1.0.0</span></div>
+  </header>
+
+  <main class="layout">
+    <section class="panel command-panel">
+      <div>
+        <p class="section-kicker">Online-Abruf</p>
+        <h2>Offizielle Werte laden</h2>
+        <p>Der Netzabruf laeuft als separates Node-Tool. Das ist bewusst vom Schulrechner getrennt und erzeugt eine JSON-Datei, die spaeter offline importiert werden kann.</p>
+      </div>
+      <code>node fetch_grant_templates.js</code>
+      <div class="button-row">
+        <button id="load-bundled" type="button">Letzte erzeugte Vorlage laden</button>
+        <button id="download-current" class="secondary" type="button">Aktuelle Ansicht exportieren</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <p class="section-kicker">Importdatei</p>
+          <h2>Vorlage pruefen</h2>
+        </div>
+        <label class="file-button">
+          JSON laden
+          <input id="template-file" type="file" accept="application/json,.json" />
+        </label>
+      </div>
+      <p id="status" class="status">Noch keine Vorlage geladen.</p>
+      <div class="kpi-grid">
+        <article><span>Laender</span><strong id="country-count">0</strong></article>
+        <article><span>Distanzbaender</span><strong id="travel-count">0</strong></article>
+        <article><span>Quelle</span><strong id="source-label">-</strong></article>
+      </div>
+    </section>
+
+    <section class="panel wide">
+      <div class="panel-head">
+        <div>
+          <p class="section-kicker">Vorschau</p>
+          <h2>Laenderpauschalen</h2>
+        </div>
+      </div>
+      <div class="table-wrap"><table id="country-table"></table></div>
+    </section>
+
+    <section class="panel wide">
+      <div class="panel-head">
+        <div>
+          <p class="section-kicker">Vorschau</p>
+          <h2>Reisepauschalen</h2>
+        </div>
+      </div>
+      <div class="table-wrap"><table id="travel-table"></table></div>
+    </section>
+  </main>
+
+  <template id="empty-row">
+    <tbody><tr><td>Noch keine Daten geladen.</td></tr></tbody>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

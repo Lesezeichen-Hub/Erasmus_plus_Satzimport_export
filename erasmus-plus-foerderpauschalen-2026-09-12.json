@@ -1,0 +1,270 @@
+{
+  "schema": "erasmus-plus-grant-template",
+  "schemaVersion": 1,
+  "exportedAt": "2026-09-12T06:48:14.319Z",
+  "source": "Erasmus+ Programme Guide: https://erasmus-plus.ec.europa.eu/programme-guide/part-b/key-action-1/mobility-school; PAD Dokumentencenter: https://erasmusplus.schule/service-und-unterstuetzung/unterstuetzung-im-programm/dokumentencenter",
+  "note": "Importdatei fuer den Admin-Bereich der lokalen Erasmus+ Management-App. Tageswerte nutzen den oberen Wert der offiziellen Spannbreiten und bleiben in der App bearbeitbar.",
+  "countryGrantRates": [
+    {
+      "country": "Belgien",
+      "group": 1,
+      "dailyMin": 48,
+      "dailyMax": 85,
+      "dailyRate": 85
+    },
+    {
+      "country": "Bulgarien",
+      "group": 3,
+      "dailyMin": 36,
+      "dailyMax": 64,
+      "dailyRate": 64
+    },
+    {
+      "country": "Dänemark",
+      "group": 1,
+      "dailyMin": 48,
+      "dailyMax": 85,
+      "dailyRate": 85
+    },
+    {
+      "country": "Deutschland",
+      "group": 1,
+      "dailyMin": 48,
+      "dailyMax": 85,
+      "dailyRate": 85
+    },
+    {
+      "country": "Estland",
+      "group": 2,
+      "dailyMin": 41,
+      "dailyMax": 74,
+      "dailyRate": 74
+    },
+    {
+      "country": "Finnland",
+      "group": 1,
+      "dailyMin": 48,
+      "dailyMax": 85,
+      "dailyRate": 85
+    },
+    {
+      "country": "Frankreich",
+      "group": 1,
+      "dailyMin": 48,
+      "dailyMax": 85,
+      "dailyRate": 85
+    },
+    {
+      "country": "Griechenland",
+      "group": 2,
+      "dailyMin": 41,
+      "dailyMax": 74,
+      "dailyRate": 74
+    },
+    {
+      "country": "Island",
+      "group": 1,
+      "dailyMin": 48,
+      "dailyMax": 85,
+      "dailyRate": 85
+    },
+    {
+      "country": "Italien",
+      "group": 1,
+      "dailyMin": 48,
+      "dailyMax": 85,
+      "dailyRate": 85
+    },
+    {
+      "country": "Kroatien",
+      "group": 3,
+      "dailyMin": 36,
+      "dailyMax": 64,
+      "dailyRate": 64
+    },
+    {
+      "country": "Lettland",
+      "group": 2,
+      "dailyMin": 41,
+      "dailyMax": 74,
+      "dailyRate": 74
+    },
+    {
+      "country": "Liechtenstein",
+      "group": 1,
+      "dailyMin": 48,
+      "dailyMax": 85,
+      "dailyRate": 85
+    },
+    {
+      "country": "Luxemburg",
+      "group": 1,
+      "dailyMin": 48,
+      "dailyMax": 85,
+      "dailyRate": 85
+    },
+    {
+      "country": "Malta",
+      "group": 2,
+      "dailyMin": 41,
+      "dailyMax": 74,
+      "dailyRate": 74
+    },
+    {
+      "country": "Niederlande",
+      "group": 1,
+      "dailyMin": 48,
+      "dailyMax": 85,
+      "dailyRate": 85
+    },
+    {
+      "country": "Nordmazedonien",
+      "group": 3,
+      "dailyMin": 36,
+      "dailyMax": 64,
+      "dailyRate": 64
+    },
+    {
+      "country": "Norwegen",
+      "group": 1,
+      "dailyMin": 48,
+      "dailyMax": 85,
+      "dailyRate": 85
+    },
+    {
+      "country": "Österreich",
+      "group": 1,
+      "dailyMin": 48,
+      "dailyMax": 85,
+      "dailyRate": 85
+    },
+    {
+      "country": "Polen",
+      "group": 3,
+      "dailyMin": 36,
+      "dailyMax": 64,
+      "dailyRate": 64
+    },
+    {
+      "country": "Portugal",
+      "group": 2,
+      "dailyMin": 41,
+      "dailyMax": 74,
+      "dailyRate": 74
+    },
+    {
+      "country": "Rumänien",
+      "group": 3,
+      "dailyMin": 36,
+      "dailyMax": 64,
+      "dailyRate": 64
+    },
+    {
+      "country": "Schweden",
+      "group": 1,
+      "dailyMin": 48,
+      "dailyMax": 85,
+      "dailyRate": 85
+    },
+    {
+      "country": "Serbien",
+      "group": 3,
+      "dailyMin": 36,
+      "dailyMax": 64,
+      "dailyRate": 64
+    },
+    {
+      "country": "Slowakei",
+      "group": 2,
+      "dailyMin": 41,
+      "dailyMax": 74,
+      "dailyRate": 74
+    },
+    {
+      "country": "Slowenien",
+      "group": 2,
+      "dailyMin": 41,
+      "dailyMax": 74,
+      "dailyRate": 74
+    },
+    {
+      "country": "Spanien",
+      "group": 2,
+      "dailyMin": 41,
+      "dailyMax": 74,
+      "dailyRate": 74
+    },
+    {
+      "country": "Tschechien",
+      "group": 2,
+      "dailyMin": 41,
+      "dailyMax": 74,
+      "dailyRate": 74
+    },
+    {
+      "country": "Türkei",
+      "group": 3,
+      "dailyMin": 36,
+      "dailyMax": 64,
+      "dailyRate": 64
+    },
+    {
+      "country": "Ungarn",
+      "group": 3,
+      "dailyMin": 36,
+      "dailyMax": 64,
+      "dailyRate": 64
+    },
+    {
+      "country": "Zypern",
+      "group": 2,
+      "dailyMin": 41,
+      "dailyMax": 74,
+      "dailyRate": 74
+    }
+  ],
+  "travelGrantBands": [
+    {
+      "id": "10-99",
+      "label": "10-99 km",
+      "green": 56,
+      "standard": 28
+    },
+    {
+      "id": "100-499",
+      "label": "100-499 km",
+      "green": 285,
+      "standard": 211
+    },
+    {
+      "id": "500-1999",
+      "label": "500-1999 km",
+      "green": 417,
+      "standard": 309
+    },
+    {
+      "id": "2000-2999",
+      "label": "2000-2999 km",
+      "green": 535,
+      "standard": 395
+    },
+    {
+      "id": "3000-3999",
+      "label": "3000-3999 km",
+      "green": 785,
+      "standard": 580
+    },
+    {
+      "id": "4000-7999",
+      "label": "4000-7999 km",
+      "green": 1180,
+      "standard": 1180
+    },
+    {
+      "id": "8000+",
+      "label": "8000 km oder mehr",
+      "green": 1735,
+      "standard": 1735
+    }
+  ]
+}

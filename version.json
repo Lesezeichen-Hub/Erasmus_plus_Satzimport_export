@@ -1,0 +1,14 @@
+{
+  "name": "Erasmus+ Satzimport Export",
+  "version": "1.0.0",
+  "description": "Hub-Modul zum Pruefen, Exportieren und Erzeugen importierbarer Erasmus+ Foerderpauschalen-Vorlagen.",
+  "entry": "index.html",
+  "type": "static-hub-module",
+  "tools": [
+    {
+      "name": "fetch_grant_templates.js",
+      "description": "Laedt offizielle Erasmus+ Satzwerte aus dem Netz und erzeugt eine JSON-Vorlage fuer den Import in Erasmus+ Management."
+    }
+  ],
+  "output": "erasmus-plus-foerderpauschalen-YYYY-MM-DD.json"
+}
